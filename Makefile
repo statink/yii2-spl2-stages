@@ -1,13 +1,21 @@
 ASSET_FILENAMES := \
 	ajifry.jpg \
+	ama.jpg \
 	anchovy.jpg \
 	arowana.jpg \
+	battera.jpg \
 	bbass.jpg \
+	chozame.jpg \
 	dam.jpg \
 	devon.jpg \
 	donburako.jpg \
 	engawa.jpg \
+	fujitsubo.jpg \
+	gangaze.jpg \
 	hakofugu.jpg \
+	hokke.jpg \
+	kombu.jpg \
+	manta.jpg \
 	mongara.jpg \
 	mozuku.jpg \
 	mutsugoro.jpg \
@@ -17,6 +25,7 @@ ASSET_FILENAMES := \
 	shaketoba.jpg \
 	shottsuru.jpg \
 	sumeshi.jpg \
+	tachiuo.jpg \
 	tokishirazu.jpg \
 	zatou.jpg
 
@@ -63,6 +72,9 @@ assets/gray-blur/%.jpg: assets/daytime-blur/%.jpg
 tmp:
 	mkdir tmp
 
+tmp/ama.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/DCOlNI4VYAANvOI.jpg:orig'
+
 tmp/ajifry.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DXLF40vUMAEQR_C.jpg:orig'
 
@@ -72,8 +84,16 @@ tmp/anchovy.jpg: tmp
 tmp/arowana.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DPSOeyvVoAAGnWL.jpg:orig'
 
+tmp/battera.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/f/f7/S2_Stage_The_Reef.png'
+	convert $@.png -quality 95 $@
+
 tmp/bbass.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DNEAZ9cUIAAphwV.jpg:orig'
+
+tmp/chozame.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/6/62/S2_Stage_Sturgeon_Shipyard.png'
+	convert $@.png -quality 95 $@
 
 tmp/dam.jpg: tmp
 	curl -o $@.png 'https://cdn.wikimg.net/splatoonwiki/images/2/29/S2_Stage_Spawning_Grounds.png'
@@ -89,8 +109,28 @@ tmp/donburako.jpg: tmp
 tmp/engawa.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DLXOzECUEAAyMkl.jpg:orig'
 
+tmp/fujitsubo.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/c/cd/S2_Stage_Musselforge_Fitness.png'
+	convert $@.png -quality 95 $@
+
+tmp/gangaze.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/3/31/S2_Stage_Starfish_Mainstage.png'
+	convert $@.png -quality 95 $@
+
 tmp/hakofugu.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DPNH39SVQAAIPiE.jpg:orig'
+
+tmp/hokke.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/4/49/S2_Stage_Port_Mackerel.png'
+	convert $@.png -quality 95 $@
+
+tmp/kombu.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/e/ed/S2_Stage_Humpback_Pump_Track.png'
+	convert $@.png -quality 95 $@
+
+tmp/manta.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/7/7e/S2_Stage_Manta_Maria.png'
+	convert $@.png -quality 95 $@
 
 tmp/mongara.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DbhDqsRVAAAgk3U.jpg:orig'
@@ -119,6 +159,10 @@ tmp/shottsuru.jpg: tmp
 
 tmp/sumeshi.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DYPMwDjVQAAyI2_.jpg:orig'
+
+tmp/tachiuo.jpg: tmp
+	curl -o $@.png 'https://cdn.wikimg.net/en/splatoonwiki/images/3/37/S2_Stage_Moray_Towers.png'
+	convert $@.png -quality 95 $@
 
 tmp/tokishirazu.jpg: tmp
 	curl -o $@.png 'https://cdn.wikimg.net/splatoonwiki/images/c/c7/S2_Stage_Salmonid_Smokeyard.png'
