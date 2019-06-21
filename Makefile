@@ -20,6 +20,30 @@ ASSET_FILENAMES := \
 	mozuku.jpg \
 	mutsugoro.jpg \
 	mystery.jpg \
+	mystery_01.jpg \
+	mystery_02.jpg \
+	mystery_03.jpg \
+	mystery_04.jpg \
+	mystery_05.jpg \
+	mystery_06.jpg \
+	mystery_07.jpg \
+	mystery_08.jpg \
+	mystery_09.jpg \
+	mystery_10.jpg \
+	mystery_11.jpg \
+	mystery_12.jpg \
+	mystery_13.jpg \
+	mystery_14.jpg \
+	mystery_15.jpg \
+	mystery_16.jpg \
+	mystery_17.jpg \
+	mystery_18.jpg \
+	mystery_19.jpg \
+	mystery_20.jpg \
+	mystery_21.jpg \
+	mystery_22.jpg \
+	mystery_23.jpg \
+	mystery_24.jpg \
 	otoro.jpg \
 	polaris.jpg \
 	shaketoba.jpg \
@@ -143,6 +167,78 @@ tmp/mutsugoro.jpg: tmp
 
 tmp/mystery.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/DGDTWhAUwAA4Bri.jpg:orig'
+
+tmp/mystery_01.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_bOYU0AAGEQY.jpg:orig'
+
+tmp/mystery_02.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_b_NVUAEXXrB.jpg:orig'
+
+tmp/mystery_03.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_cpPVAAAF8qv.jpg:orig'
+
+tmp/mystery_04.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_d34VUAEnFSd.jpg:orig'
+
+tmp/mystery_05.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_7LAUIAEZMTw.jpg:orig'
+
+tmp/mystery_06.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_7yiUIAAOShS.jpg:orig'
+
+tmp/mystery_07.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_8cWUEAEn8CU.jpg:orig'
+
+tmp/mystery_08.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9T_8_QUIAA6XT6.jpg:orig'
+
+tmp/mystery_09.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJccvVUAA0F6C.jpg:orig'
+
+tmp/mystery_10.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJdEmUwAAVQie.jpg:orig'
+
+tmp/mystery_11.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJeBNUEAM_mlN.jpg:orig'
+
+tmp/mystery_12.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJfG5U4AEOTW0.jpg:orig'
+
+tmp/mystery_13.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJz7NUIAAKC8K.jpg:orig'
+
+tmp/mystery_14.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJ0xYUEAEeoXR.jpg:orig'
+
+tmp/mystery_15.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJ1U5U8AAGR1U.jpg:orig'
+
+tmp/mystery_16.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9ZJ13MUEAA7998.jpg:orig'
+
+tmp/mystery_17.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eUgGpVUAA4QFv.jpg:orig'
+
+tmp/mystery_18.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eUgucVUAEisau.jpg:orig'
+
+tmp/mystery_19.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eUhOzUEAIbGUR.jpg:orig'
+
+tmp/mystery_20.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eUhxXUEAE5clR.jpg:orig'
+
+tmp/mystery_21.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eU1X1VAAAiSAm.jpg:orig'
+
+tmp/mystery_22.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eU19eU0AAzfup.jpg:orig'
+
+tmp/mystery_23.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9eU2jDUYAAvltg.jpg:orig'
+
+tmp/mystery_24.jpg: tmp
+	curl -o $@ 'https://pbs.twimg.com/media/D9jbz9jUEAAZRQ0.jpg:orig'
 
 tmp/otoro.jpg: tmp
 	curl -o $@ 'https://pbs.twimg.com/media/Dg09LC9V4AEpYc9.jpg:orig'
